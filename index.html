@@ -145,7 +145,7 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
     </ul>
 
     <div class="commitment">
-        <strong>YES!</strong> I have these 3 things and I am going to apply this life-changing information once it is in my hands.
+        <strong>YES!</strong> I have these 3 things and I am going to apply for this life-changing information once it's in my hands.
     </div>
 
     <!-- FIREBASE-CONTROLLED BUTTON -->
@@ -172,7 +172,7 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 async function loadGroupLink() {
-  const snap = await getDoc(doc(db, "LandingPages", "page2"));
+  const snap = await getDoc(doc(db, "LandingPages", "page3"));
   if (snap.exists()) {
     document.getElementById("joinBtn").href = snap.data().groupLink;
   }
